@@ -1,0 +1,11 @@
+{
+  "name": "cris-prototipo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Protótipo mobile-first da CRIS com apresentação navegável",
+  "scripts": {
+    "start": "node preview-server.mjs",
+    "check": "node --check preview-server.mjs && node --check dist/app.js && node --check dist/screens.js"
+  },
+  "engines": { "node": ">=18" }
+}
