@@ -17,7 +17,13 @@ npm start
 
 O servidor usa apenas a interface local. A porta pode ser alterada pela variável de ambiente `PORT`.
 
-## Experiências
+## Publicar na Vercel
+
+Importe este repositório e selecione a branch `main`, mantendo a pasta raiz como `./`. O arquivo `vercel.json` configura o preset **Other**, o comando `npm run build` e a saída `public` automaticamente. Não são necessárias variáveis de ambiente.
+
+O build organiza a apresentação em `/` e o aplicativo em `/app/`, incluindo todos os assets. O servidor Node é usado somente no desenvolvimento local; a Vercel serve arquivos estáticos. Para verificar o pacote antes de publicar, rode `npm run build`.
+
+## Telas e recursos
 
 - Home: impacto, busca, categorias, atalhos e cartões deslizantes.
 - Marketplace: busca, filtros, favoritos, perfil empresarial e registro de interesse.

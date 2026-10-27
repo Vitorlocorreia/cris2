@@ -4,6 +4,7 @@
   "private": true,
   "description": "Protótipo mobile-first da CRIS com apresentação navegável",
   "scripts": {
+    "build": "node build.mjs",
     "start": "node preview-server.mjs",
     "check": "node --check preview-server.mjs && node --check dist/app.js && node --check dist/screens.js"
   },
